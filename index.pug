@@ -1,0 +1,35 @@
+doctype html
+html(lang="ru")
+    head
+        title Lia Golik
+        include pug/head.html
+    body
+        // Content
+        div(id="content")
+            div(class="inner")
+                include pug/content/post1.html
+        // ContentEnd
+
+        // Sidebar
+        div(id="sidebar")
+            // Logo
+            include pug/logo.html
+
+            // Nav
+            nav(id="nav")
+                ul
+                    li(class="current"): a(href="#") Обо мне
+                    li: a(href="#") Повышение квалификации
+                    li: a(href="#") Открытые уроки
+                    li: a(href="#") Семинары
+                    li: a(href="#") МЭШ
+                    li: a(href="#") ШНТ
+                    li: a(href="#") Контакты
+
+            include pug/recent-posts.html
+            include pug/copyright.html
+
+        include pug/scripts.html
+
+//- Версия сайта
+include pug/v.pug
