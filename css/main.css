@@ -1608,6 +1608,7 @@ ol.default {
     text-decoration: none;
     border-radius: 0.4em;
     outline: 0;
+    line-height: 1.3em;
     -moz-transition: background-color .25s ease-in-out, color .25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out, color .25s ease-in-out;
     -ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
