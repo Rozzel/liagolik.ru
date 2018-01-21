@@ -1,18 +1,16 @@
 doctype html
 html(lang="ru")
     head
-        title Повышение квалификации
+        title Открытые уроки
         include ../pug/head.html
     body
         // Content
         div(id="content")
             div(class="inner")
-                include ../pug/content/training.html
-                include ../pug/content/diplomas.html
-                include ../pug/content/уdostoverenija.html
-                include ../pug/content/certificates.html
-                include ../pug/content/gramoty.html
-                include ../pug/content/pisma.html
+                include ../pug/content/lessons.html
+                include ../pug/content/foot5.html
+                include ../pug/content/pinocchio.html
+                include ../pug/content/gramatika-simvoly.html
         // ContentEnd
 
         // Sidebar
@@ -23,10 +21,10 @@ html(lang="ru")
             nav(id="nav")
                 ul
                     li: a(href="/") Обо мне
-                    li(class="current"): a(href="") Повышение квалификации
-                    li: a(href="../lessons/") Открытые уроки
+                    li(class="current"): a(href="../training/") Повышение квалификации
+                    li(class="current"): a(href="") Открытые уроки
                     //li: a(href="#") Семинары
-                    //li: a(href="#") МЭШ
+                    // li: a(href="#") МЭШ
                     //li: a(href="#") ШНТ
                     //li: a(href="#") Контакты
 
