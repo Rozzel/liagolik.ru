@@ -17,15 +17,6 @@
   transition: .3s ease-in-out;
   top: 13px; }
 
-.push-ro li:after {
-  position: absolute;
-  border-left: 1px dotted #4F5151;
-  width: 1px;
-  bottom: -12px;
-  content: "";
-  left: 3px;
-  top: 48px; }
-
 .push-ro li:hover:before {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2); }
 
