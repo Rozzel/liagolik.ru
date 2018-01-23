@@ -3,10 +3,7 @@
 
 .push-ro li {
   position: relative;
-  padding: 20px 0 20px 40px;
-  color: #D29D25;
-  font-variant: small-caps;
-  font-weight: bold;
+  padding: 20px 0 10px 15px;
   cursor: pointer; }
 
 .push-ro li:before {
