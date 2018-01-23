@@ -3,7 +3,7 @@
 
 .push-ro li {
   position: relative;
-  padding: 20px 0 10px 15px;
+  padding: 3px 0 5px 15px;
   cursor: pointer; }
 
 .push-ro li:before {
@@ -15,7 +15,7 @@
   content: "";
   left: 0;
   transition: .3s ease-in-out;
-  top: 27px; }
+  top: 13px; }
 
 .push-ro li:after {
   position: absolute;
