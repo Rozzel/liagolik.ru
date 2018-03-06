@@ -1,0 +1,21 @@
+.push-ro {
+  list-style: none;
+}
+.push-ro li {
+  position: relative;
+  padding: 3px 0 5px 15px;
+  cursor: pointer;
+}
+.push-ro li:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4F5151;
+  content: "";
+  left: 0;
+  transition: .3s ease-in-out;
+  top: 13px;
+}
+.push-ro li:hover:before{box-shadow: 0 0 0 10px rgba(0,0,0,.2)}
+.push-ro li:last-child:after {content: none;}
